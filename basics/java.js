@@ -11,3 +11,12 @@ var a;
 console.log(a); // => undefined
 var c=30;
 console.warn(c)
+let k = "32abc"
+let ch = parseInt(k)
+let chs = Boolean(k)
+console.log(chs)
+let s = Number(k)
+console.log(s)
+console.warn(ch)
+console.log(+true)
+console.log(+false)
