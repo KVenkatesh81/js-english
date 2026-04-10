@@ -1,6 +1,6 @@
 "use strict ";
 console.log("venky");
-let x = null;
+/*let x = null;
 let name = "Tammy";
 const found = false;
 
@@ -36,4 +36,18 @@ console.log(Math)
 let max =20
 let min =10
 /*to print random numbers between min and max the formula is console.log((Math.floor(Math.random)*(max-min+1))+min)    */
-console.log(Math.floor((Math.random()*(max-min)+1)+min))
+/*console.log(Math.floor((Math.random()*(max-min)+1)+min))
+//console.log(Date.now())
+let vm = Date.now()
+//for(let x =0;x<=10000000;x++) console.log(x)
+let am = Date.now()
+console.log(Math.floor((am-vm)/1000))*/
+let arr = [1,2,24,45,67,"a"]
+arr.push("best++")
+console.log(arr.join(";"))
+let arn = [
+    [34,3,2] ,
+    [2,3,4,3],
+    [2,234,1,24,1]
+]
+console.log(arn.join(";"))
